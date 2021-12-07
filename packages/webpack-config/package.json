@@ -1,0 +1,21 @@
+{
+  "name": "@anijs/webpack-config",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "description": "webpack通用配置",
+  "keywords": [
+    "webpack",
+    "webpack-config"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

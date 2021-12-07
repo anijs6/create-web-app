@@ -1,0 +1,29 @@
+{
+  "name": "create-webp-app",
+  "version": "1.0.0",
+  "description": "一站式构建react、vue技术栈web应用",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anijs6/create-webp-app.git"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "bugs": {
+    "url": "https://github.com/anijs6/create-webp-app/issues"
+  },
+  "devDependencies": {
+    "@anijs/eslint-config": "^0.5.1",
+    "@anijs/prettier": "^1.1.0",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "eslint": "^8.4.1",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  }
+}
