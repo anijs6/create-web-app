@@ -24,6 +24,12 @@ importers:
       prettier: 2.5.1
       typescript: 4.5.2
 
+  packages/webpack-config:
+    specifiers:
+      '@types/node': ^16.11.12
+    devDependencies:
+      '@types/node': 16.11.12
+
 packages:
 
   /@anijs/eslint-config-common/0.5.0_eslint@8.4.1+prettier@2.5.1:
@@ -561,6 +567,10 @@ packages:
 
   /@types/minimist/1.2.2:
     resolution: {integrity: sha1-7nceK6Sz3Fs3KTXVSf2WF780W4w=, tarball: '@types/minimist/download/@types/minimist-1.2.2.tgz'}
+    dev: true
+
+  /@types/node/16.11.12:
+    resolution: {integrity: sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==, tarball: '@types/node/download/@types/node-16.11.12.tgz'}
     dev: true
 
   /@types/normalize-package-data/2.4.1:

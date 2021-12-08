@@ -1,10 +1,13 @@
+import type { WebpackCommonConfigOptions } from './types'
+
 /**
- *
+ * @param options
  */
-export function webpackCommonConfig() {
+export function webpackCommonConfig(options: WebpackCommonConfigOptions) {
+  const { mode = 'development' } = options || {}
   return {
     context: process.cwd(),
-    mode: options.mode,
+    mode,
     target: mode === 'development' ? 'web' : 'browserslist',
     entry,
 
